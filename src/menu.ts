@@ -1,4 +1,4 @@
-//Typescript Menu
+// Typescript Menu
 
 import {
   app,
