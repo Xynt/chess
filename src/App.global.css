@@ -1,19 +1,10 @@
-/*
- * @NOTE: Prepend a `~` to css file paths that are in your node_modules
- *        See https://github.com/webpack-contrib/sass-loader#imports
- */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 body {
   position: relative;
-  color: white;
+  color: rgb(0, 0, 0);
   height: 100vh;
-  background: linear-gradient(
-    200.96deg,
-    #fedc2a -29.09%,
-    #dd5789 51.77%,
-    #7a2c9e 129.35%
-  );
+  background: rgb(246, 255, 244);
   font-family: 'Noto Sans JP', sans-serif;
   overflow-y: hidden;
   display: flex;
@@ -71,4 +62,31 @@ a:hover {
   justify-content: center;
   align-items: center;
   margin: 20px 0;
+}
+
+.chessboard{
+  border: 2px solid black;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  height: 50vw;
+  margin: 0 auto;
+  width: 50vw;
+}
+
+.chessboardRow{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+
+.white-box{
+  background-color: #ffffff;
+  flex: 1;
+}
+
+.black-box{
+  background-color: #000000;
+  flex: 1;
 }
