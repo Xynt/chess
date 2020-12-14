@@ -63,30 +63,3 @@ a:hover {
   align-items: center;
   margin: 20px 0;
 }
-
-.chessboard{
-  border: 2px solid black;
-  box-sizing: content-box;
-  display: flex;
-  flex-direction: column;
-  height: 50vw;
-  margin: 0 auto;
-  width: 50vw;
-}
-
-.chessboardRow{
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-}
-
-
-.white-box{
-  background-color: #ffffff;
-  flex: 1;
-}
-
-.black-box{
-  background-color: #000000;
-  flex: 1;
-}
