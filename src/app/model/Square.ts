@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-cycle
 import ChessPiece from './ChessPiece';
 
 export default class Square {

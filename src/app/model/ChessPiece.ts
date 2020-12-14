@@ -1,3 +1,4 @@
+import Board from './Board';
 import Square from './Square';
 
 export default interface ChessPiece {
@@ -6,8 +7,7 @@ export default interface ChessPiece {
   readonly icon: string;
 
   /**
-   * findAllowedDestinations
-   *
+   * Algorythm that finds the allowed destinations for this piece
    */
-  findAllowedDestinations(): Square;
+  findAllowedDestinations(board: Board): Square;
 }
